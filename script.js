@@ -8,7 +8,7 @@ const add = () =>{
         arr.value = ""
         disp.innerHTML = ""
         for (i = 0; i < items.length; i++) {
-            disp.innerHTML += `<p class="border p-2 rounded-pill my-3">${items[i]}</p>`
+            disp.innerHTML += `<p class="border p-2 rounded-pill my-3"> ${i+1}.${items[i]}</p>`
         }   
     }
 }
